@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "HelvicaThin";
+    src: url('./minified/HelveticaNowDisplay-Light.woff');
+}
+
+@font-face {
+    font-family: "HelvicaLight";
+    src: url('./minified/HelveticaNowDisplay-Regular.woff');
+}
+
+.containers {
+    width: 70%;
+    margin: auto;
+    color: #003F5D;
+    /* position: relative; */
+}
+
+.alldata {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    height: auto;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+}
+
+.single-title {
+    font-family: "HelvicaThin";
+    width: 240px;
+    font-size: 34px;
+}
+
+.single-info {
+    margin-top: 10px;
+    font-family: "HelvicaLight";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.singles {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.single-btn:hover {
+    width: 210px;
+    height: 30px;
+    border: none;
+    background: #C4A881;
+}
+
+.single-btn {
+    margin: 5px 0;
+    width: 210px;
+    height: 30px;
+    background: #011E39;
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.flor-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-post {
+    margin-top: 70px;
+}
+
+.dummy-text {
+    display: flex;
+}
+
+.dummy-left {
+    text-align: justify;
+    font-size: 12px;
+}
+
+.dummy-right {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.close a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #C4A881 !important;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    font-size: 18px;
+}
+
+.small-image>img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.imgs>img {
+    height: 100%;
+    max-width: 100%;
+}
+
+.mobile {
+    display: none;
+}
+
+/* -----------------Media Query-------------------------------- */
+@media screen and (max-width:1920px) {
+    .single-title {
+        font-family: "HelvicaThin";
+        width: 220px;
+        font-size: 25px;
+    }
+
+    .single-info {
+        margin-top: 0;
+        font-family: "HelvicaLight";
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+}
+@media screen and (max-width:1280px) {
+    .single-title {
+        font-family: "HelvicaThin";
+        width: 200px;
+        font-size: 17px;
+    }
+    .single-info {
+        margin-top: 0;
+        font-family: "HelvicaLight";
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width:992px) {
+    .single-title {
+        display: none;
+    }
+
+    .single-info {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}
+@media screen and (max-width: 778px) {
+    .buttonsx {
+        text-align: center !important;
+    }
+}
