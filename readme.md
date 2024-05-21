@@ -1,8 +1,7 @@
-## Meal App :: Daily Assistance of you small mess!!
-Meal App is created with only HTML,CSS,JS,Bootstrap for Frontend Developemnt. For Backend Development used PHP framework Laravel and MySQL for Database Design. 
-Also there is Manager and Member Role system. Manager can do extra feature to manage the member and show the summary of the month. 
+## Sixth and Rio :: A Fancy Realstate Website!
+Sixth and Rio is created with Wordpress. Along with  HTML,CSS,JS,and PHP for some custome Developemnt.
+Also there is some plugin used. Those are ACF, CF7, Elemntor, CF7 Conditional adons, Elementor header and footer etc.
 
-Member can find there info in dashboard! And Mananger can see member info and can update also. However this is simple and minimal project that i created.
 
 ## Demo
 
@@ -17,57 +16,27 @@ Member can find there info in dashboard! And Mananger can see member info and ca
 <img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/6.png" alt="User Dashboard">
 
 
-<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/1.2.PNG" alt="">
 
-
-
-<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/3.PNG" alt="">
-
-
-<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/4.png" alt="">
-
-
-<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/7.png" alt="">
-
-
-<img src="https://raw.githubusercontent.com/Oleraj09/Mess-Meal-System/master/Demo/8.png" alt="">
 
 ## Run Webapp
 To run this application must require node module and composer autoload module.
 
-- 1st Command use 
+- 1st Step, Use this comand in terminal.
 
 
-        composer install
+        git clone https://github.com/Oleraj09/sixth-rio.git
         
         
-- 2nd Command use
-
-
-        npm install
+- 2nd Step, Move to local folder of xammp
         
         
-- 3rd Command use
+- 3rd Step, Create a database same as sql file name. and import the sql file provided. 'sixrio.sql'
 
-
-        cp .env.example .env
         
         
-- 4th Command use
+- 4th Step, Run the local folder. and see your website.
 
 
-        php artisan key:generate
-        
-        
-- Run xamp server to Create Database use 
-
-
-        php artisan migrate
-        
-        
-- Run the server 
-
-
-        php artisan serve
+Thanks for your time. 
         
         
