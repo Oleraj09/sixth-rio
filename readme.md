@@ -5,7 +5,8 @@ Also there is some plugin used. Those are ACF, CF7, Elemntor, CF7 Conditional ad
 
 ## Demo
 
-Live Link <a href="https://aviva501dev.wpengine.com/new-landing-page/">Sixth and Rio </a>
+Live Link  Landing - <a href="https://aviva501dev.wpengine.com/new-landing-page/">Sixth and Rio </a>
+Live Link  Main  - <a href="https://sixthandrio.com/">Sixth and Rio </a>
 
 
 
